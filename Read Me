@@ -1,0 +1,27 @@
+#Sales Insights Data Analysis Project
+Purpose
+This repository contains the code and analysis for a Sales Insights Data Analysis project. The project involves querying a database using SQL to extract relevant sales data and performing analysis using Power BI to derive additional insights. The goal is to provide a comprehensive overview of customer records, transactions, and revenue trends.
+
+Files and Structure
+SQL Queries
+sql_queries.sql: Contains SQL queries for extracting and analyzing data from the database. Includes queries for retrieving customer records, transaction details, and calculating total revenue.
+Power BI Analysis
+sales_insights.pbix: Power BI file containing the analysis and visualizations. Utilizes the data extracted using SQL queries.
+Additional Resources
+README.md: This file providing an overview of the project, structure, and instructions for running the analysis.
+data_dictionary.md: Details about the database schema and the meaning of each field in the tables.
+LICENSE: The license file for the project.
+Instructions for Running/Replicating the Analysis
+SQL Queries
+Connect to your database using a SQL client.
+Execute the queries in sql_queries.sql to retrieve the necessary data.
+Power BI Analysis
+Download and install Power BI Desktop from Microsoft's official website.
+Open the sales_insights.pbix file in Power BI Desktop.
+Refresh the data connections to reflect your database or use the existing sample data.
+Review the existing visualizations and explore the insights derived from the data.
+Modify or create new visualizations as needed for your specific analysis.
+Additional Information
+Ensure that your SQL database credentials are securely handled.
+The norm_amount column in Power BI is calculated based on a formula specified in the Power BI file.
+Feel free to reach out for any clarifications or collaboration opportunities.
